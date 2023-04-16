@@ -9,11 +9,20 @@ import transactions from '../data/transactions.json';
 
 export const App = () => {
   return (
-    <>
+    <div
+      style={{
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        padding: 20,
+        color: '#010101',
+      }}
+    >
       <Profile user={user} />
       <Statistics stats={data} />
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />;
-    </>
+    </div>
   );
 };

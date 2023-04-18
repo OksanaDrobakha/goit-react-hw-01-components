@@ -32,5 +32,14 @@
   width: 15px;
   height: 15px;
   border-radius: 50%;
+}
+
+.online {
+  composes: status;
   background: green;
+}
+
+.offline {
+  composes: status;
+  background: red;
 }

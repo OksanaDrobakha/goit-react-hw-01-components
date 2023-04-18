@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import css from '../css/FriendCard.module.css';
+import css from '../FriendCard/FriendCard.module.css';
 
 export const FriendCard = ({ avatar, name, isOnline }) => {
   return (
